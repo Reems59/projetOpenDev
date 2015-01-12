@@ -24,6 +24,7 @@ public class MoveStrategyKeyboard extends KeyAdapter implements MoveStrategy {
 	public void keyPressed(int keyCode) {
 		switch (keyCode) {
 		case KeyEvent.VK_RIGHT:
+			System.out.println("droite");
 			goRight();
 			break;
 		case KeyEvent.VK_LEFT:
